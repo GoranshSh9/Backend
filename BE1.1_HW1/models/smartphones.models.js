@@ -30,7 +30,7 @@ const smartphoneSchema = new mongoose.Schema({
         required: true,
     },
     cameraSpecs: {
-        type: String,
+        type: Object,
         required: true,
     },
     batteryCapacity: {

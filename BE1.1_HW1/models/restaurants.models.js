@@ -19,7 +19,6 @@ const restaurantSchema = new mongoose.Schema({
     },
     phoneNumber: {
         type: String,
-        required: true,
     },
     website: {
         type: String,
