@@ -11,6 +11,7 @@ const albumSchema = new mongoose.Schema({
     },
     genre: {
         type: String,
+        enum: ['Pop', 'Rock', 'Hip-Hop', 'Jazz', 'Classical', 'Country', 'Electronic', 'R&B', 'Reggae'],
     },
     releaseYear: {
         type: Number,

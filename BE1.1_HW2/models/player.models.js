@@ -33,7 +33,7 @@ const playerSchema = new mongoose.Schema({
         type: Number,
     },level: {
         type: String,
-        enum: ['Beginner', 'Intermediate', 'Advanced'],
+        enum: ['Beginner', 'Intermediate', 'Advanced', 'Expert'],
     },
     prefferedGame: {
         type: String,
