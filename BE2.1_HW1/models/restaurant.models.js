@@ -33,7 +33,7 @@ const restaurantSchema = new mongoose.Schema({
     },
     priceRange: {
         type: String,
-        enum: ['$(0-10)', '$$(11-30)', '$$$(31-60)', '$$$$(61+)', "Other"],
+        enum: ["$ (0-10)", "$$ (11-30)", "$$$ (31-60)", "$$$$ (61+)", "Other"],
     },
     reservationNeeded: {
         type: Boolean,
